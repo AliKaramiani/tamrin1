@@ -1,6 +1,4 @@
-﻿System.Console.WriteLine("enter number");
-int x=Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("enter number");
-int y=Convert.ToInt32(Console.ReadLine());
-int z = x + y;
-System.Console.WriteLine("sum of two numbers is "+z);
+﻿System.Console.WriteLine("enter farnhaite");
+double x=Convert.ToDouble(Console.ReadLine());
+double c=(5.0/9.0)*(x-32);
+System.Console.WriteLine(c);
