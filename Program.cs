@@ -1,4 +1,4 @@
 ﻿System.Console.WriteLine("enter farnhaite");
 double x=Convert.ToDouble(Console.ReadLine());
-double c=(5.0/9.0)*(x-32);
+double c=(5.0/9.0)*(x-32)
 System.Console.WriteLine(c);
