@@ -1,0 +1,11 @@
+string result;
+double sum=0;
+double count=0;
+do{
+System.Console.WriteLine("enter number");
+sum=sum+Convert.ToDouble(Console.ReadLine());
+count++;
+System.Console.WriteLine("contnue?yes or no");
+result=Console.ReadLine();
+}while (result=="yes");
+System.Console.WriteLine(sum/count);
