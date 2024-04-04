@@ -1,0 +1,15 @@
+Random a = new Random();
+int rnd=a.Next(1,1000);
+int c;
+do{
+System.Console.WriteLine("enter number");
+ c=Convert.ToInt32(Console.ReadLine());
+ if (c>rnd)
+ {
+    System.Console.WriteLine("high");
+ }else if (c<rnd)
+ {
+    System.Console.WriteLine("less");
+ }
+}while (c!=rnd);
+System.Console.WriteLine("you won");
