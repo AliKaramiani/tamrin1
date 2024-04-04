@@ -1,0 +1,9 @@
+int y=Convert.ToInt32(Console.ReadLine());
+int c=x;
+System.Console.WriteLine(x);
+ x=y;
+ System.Console.WriteLine(x);
+  y=c;
+//System.Console.WriteLine($" the coordinates x is {x} and y is {y}"+x,y);
+string message = $"The coordinates x is {0} and y is {1}";
+Console.WriteLine(message + x + y);
